@@ -1,0 +1,14 @@
+#wreapper{
+	width:650px;
+	margin:30px auto;
+}
+
+h1{
+   text-align: center;
+}
+
+iframe{
+    border: none;
+    width: 500px;
+    border: 1px solid;
+}
