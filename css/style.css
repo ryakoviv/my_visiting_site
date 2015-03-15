@@ -1,14 +1,61 @@
-#wreapper{
-	width:650px;
-	margin:30px auto;
+body{
+    background-color: #848484;
 }
 
-h1{
-   text-align: center;
+#wreapper{
+	width:950px;
+    height:800px;
+	margin:30px auto;
+    border: 1px solid;
+    padding: 30px 30px;
+    background-color: white;
+}
+
+
+a{
+    text-decoration: none;
+}
+.menu{
+    background-image: url(../img/inputbg.jpg);  
+    background-repeat: repeat-x;
+    color: blue;
+    margin: 0 0;
+    width: 150px;
+    height: 30px;
+    height: 30px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.button {
+    background-color: skyblue;  
+    margin: 0 0;
+    width: 150px;
+    height: 30px;
+    height: 30px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 
 iframe{
     border: none;
-    width: 500px;
-    border: 1px solid;
+    
+}
+
+#content{
+    padding-left: 170px ;
+}
+
+#sidebar{
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+}
+
+#my_foto{
+    float: right;
 }
