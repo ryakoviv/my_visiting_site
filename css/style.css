@@ -2,6 +2,7 @@ body{
     background-color: #848484;
 }
 
+
 #wreapper{
 	width:950px;
     height:800px;
@@ -11,10 +12,11 @@ body{
     background-color: white;
 }
 
-
-a{
+a, a:visited, a:active{
     text-decoration: none;
+    color : blue;
 }
+
 .menu{
     background-image: url(../img/inputbg.jpg);  
     background-repeat: repeat-x;
@@ -46,6 +48,7 @@ iframe{
 
 #content{
     padding-left: 170px ;
+    height: 500px;
 }
 
 #sidebar{
@@ -58,4 +61,38 @@ iframe{
 
 #my_foto{
     float: right;
+}
+
+#footer{
+    text-align: center;
+}
+
+#footer > img{
+    padding: 5px;
+}
+
+#footer > img:hover{
+   opacity: 0.5;
+    cursor: pointer;
+}
+
+.pop-up {
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    padding: 2%;
+    border: 2px solid RGBA(0, 0, 0, 0.75);
+    background-color: RGBA(0, 0, 0, 0.75);
+}
+
+.pop-up > img {
+   /* width: 80%;
+    height: 80%;*/
+    margin: 0 auto;
+    vertical-align: center;
+    display: table-cell;
 }
